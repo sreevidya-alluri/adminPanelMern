@@ -6,7 +6,7 @@ function AdminPanel() {
 
   const updateH1Text = async () => {
     try {
-      const response = await fetch('https://adminpanelmern-backend.onrender.com', {
+      const response = await fetch('https://adminpanelmern-backend.onrender.com/api/h1', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
